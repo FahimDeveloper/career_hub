@@ -1,6 +1,7 @@
 [
     {
-        "icon": "https://example.com/job-icons/google-icon.png",
+        "id": 1,
+        "icon": "../src/assets/All-Images/google.png",
         "job_title": "Software Engineer",
         "company_name": "Google",
         "location": "Mountain View, USA",
@@ -18,7 +19,8 @@
         "experience": "2+ years of software development experience"
     },
     {
-        "icon": "https://example.com/job-icons/netflix-icon.png",
+        "id": 2,
+        "icon": "../src/assets/All-Images/netflix.png",
         "job_title": "Product Manager",
         "company_name": "Netflix",
         "location": "Los Gatos, USA",
@@ -36,7 +38,8 @@
         "experience": "5+ years of experience in product management"
     },
     {
-        "icon": "https://example.com/job-icons/tesla-icon.png",
+        "id": 3,
+        "icon": "../src/assets/All-Images/tesla.png",
         "job_title": "Senior Mechanical Engineer",
         "company_name": "Tesla",
         "location": "Palo Alto, USA",
@@ -54,7 +57,8 @@
         "experience": "5+ years of experience in mechanical engineering"
     },
     {
-        "icon": "https://example.com/job-icons/amazon-icon.png",
+        "id": 4,
+        "icon": "../src/assets/All-Images/amazon.png",
         "job_title": "Software Development Engineer",
         "company_name": "Amazon",
         "location": "Seattle, USA",
@@ -72,7 +76,8 @@
         "experience": "2+ years of experience in software development"
     },
     {
-        "icon": "https://example.com/job-icons/facebook-icon.png",
+        "id": 5,
+        "icon": "../src/assets/All-Images/facebook.png",
         "job_title": "Data Scientist",
         "company_name": "Facebook",
         "location": "Menlo Park, USA",
@@ -90,7 +95,8 @@
         "experience": "3+ years of experience in data science or related field"
     },
     {
-        "icon": "https://example.com/job-icons/microsoft-icon.png",
+        "id": 6,
+        "icon": "../src/assets/All-Images/microsoft-logo-4.png",
         "job_title": "Cloud Solutions Architect",
         "company_name": "Microsoft",
         "location": "Redmond, USA",
@@ -108,29 +114,31 @@
         "experience": "5+ years of experience in cloud architecture and design"
     },
     {
-        "icon": "https://example.com/job-icons/daraz-icon.png",
+        "id": 7,
+        "icon": "../src/assets/All-Images/airbnb.png",
         "job_title": "Product Manager",
-        "company_name": "Daraz",
-        "location": "Karachi, Pakistan",
+        "company_name": "Airbnb",
+        "location": "San Francisco, USA",
         "salary_range": "$1000 - $1500",
         "work_facilities": [
             "Remote",
             "Full-time"
         ],
-        "phone": "+92 21-111-132-729",
-        "email": "jobs@daraz.pk",
-        "address": "12th Floor, Executive Tower, Dolmen City, Karachi",
-        "job_desc": "We are looking for a Product Manager to lead product development initiatives and help us identify new opportunities for growth. The ideal candidate will have experience in product management, business analysis, and a deep understanding of e-commerce platforms.",
-        "job_res": "Conduct market research and analysis to identify customer needs and trends, define product vision and strategy, create product roadmaps, work with cross-functional teams to develop and launch new products, and monitor product performance and customer feedback",
-        "education_rq": "Bachelor's or higher degree in Business Administration, Marketing, or related field",
-        "experience": "3+ years of experience in product management or related field"
+        "phone": "+1 (415) 800-5959",
+        "email": "jobs@airbnb.com",
+        "address": "888 Brannan St, San Francisco, CA 94103, United States",
+        "job_desc": "We are looking for an experienced Product Manager to join our team. The ideal candidate will be responsible for defining and executing product strategies that deliver customer value and drive business growth.",
+        "job_res": "Develop and execute product roadmaps, prioritize features and enhancements, analyze market and user data, collaborate with cross-functional teams, and ensure product success through effective communication and stakeholder management",
+        "education_rq": "Bachelor's degree in Business, Engineering, Computer Science or a related field. MBA or advanced degree preferred",
+        "experience": "5+ years of experience in product management with a proven track record of shipping successful products, experience in e-commerce or travel industry is preferred"
     },
     {
-        "icon": "https://example.com/job-icons/alibaba-icon.png",
+        "id": 8,
+        "icon": "../src/assets/All-Images/Alibaba-Logo.png",
         "job_title": "Front-End Developer",
         "company_name": "Alibaba",
         "location": "Hangzhou, China",
-        "salary_range": "$1,500 - $2,500",
+        "salary_range": "$1500 - $2500",
         "work_facilities": [
             "On-site",
             "Full-time"

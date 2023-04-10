@@ -2,25 +2,25 @@
     {
         "id": 1,
         "job_name": "Account & Finance",
-        "icon": "../src/assets/Icons/accounts 1.png",
+        "icon": "../src/assets/Icons/accounts.png",
         "available_jobs": 423
     },
     {
         "id": 2,
         "job_name": "Creative Design",
-        "icon": "../src/assets/Icons/business 1.png",
+        "icon": "../src/assets/Icons/business.png",
         "available_jobs": 154
     },
     {
         "id": 3,
         "job_name": "Marketing & Sales",
-        "icon": "../src/assets/Icons/social-media 1.png",
+        "icon": "../src/assets/Icons/social-media.png",
         "available_jobs": 263
     },
     {
         "id": 4,
         "job_name": "Engineering Job",
-        "icon": "../src/assets/Icons/chip 1.png",
+        "icon": "../src/assets/Icons/chip.png",
         "available_jobs": 378
     }
 ]
