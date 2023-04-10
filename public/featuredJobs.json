@@ -1,0 +1,146 @@
+[
+    {
+        "icon": "https://example.com/job-icons/google-icon.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google",
+        "location": "Mountain View, USA",
+        "salary_range": "$1400 - $2000",
+        "work_facilities": [
+            "Remote",
+            "Full-time"
+        ],
+        "phone": "+1 650-253-0000",
+        "email": "jobs@google.com",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+        "job_desc": "We are looking for a software engineer to help us build the next generation of Google products. The ideal candidate will have experience in developing scalable and reliable software solutions using modern technologies.",
+        "job_res": "Design, develop, test, and deploy software solutions that meet business requirements",
+        "education_rq": "Bachelor's or higher degree in Computer Science or related field",
+        "experience": "2+ years of software development experience"
+    },
+    {
+        "icon": "https://example.com/job-icons/netflix-icon.png",
+        "job_title": "Product Manager",
+        "company_name": "Netflix",
+        "location": "Los Gatos, USA",
+        "salary_range": "$1500 - $2000",
+        "work_facilities": [
+            "Remote",
+            "Full-time"
+        ],
+        "phone": "+1 408-540-3700",
+        "email": "jobs@netflix.com",
+        "address": "100 Winchester Cir, Los Gatos, CA 95032",
+        "job_desc": "We are looking for a highly motivated Product Manager to help us drive the development and delivery of innovative streaming products. The ideal candidate will have a strong technical background and experience in agile product management.",
+        "job_res": "Develop and prioritize product features, write product specifications, and work closely with cross-functional teams to deliver high-quality products",
+        "education_rq": "Bachelor's or higher degree in Computer Science or related field",
+        "experience": "5+ years of experience in product management"
+    },
+    {
+        "icon": "https://example.com/job-icons/tesla-icon.png",
+        "job_title": "Senior Mechanical Engineer",
+        "company_name": "Tesla",
+        "location": "Palo Alto, USA",
+        "salary_range": "$2000 - $2500",
+        "work_facilities": [
+            "On-site",
+            "Full-time"
+        ],
+        "phone": "+1 650-681-5100",
+        "email": "jobs@tesla.com",
+        "address": "3500 Deer Creek Rd, Palo Alto, CA 94304",
+        "job_desc": "We are seeking a Senior Mechanical Engineer to join our dynamic team. The ideal candidate will have a strong background in mechanical design and analysis, as well as experience leading projects and managing cross-functional teams.",
+        "job_res": "Design and develop mechanical systems and components for Tesla's electric vehicles, from concept through production",
+        "education_rq": "Bachelor's or higher degree in Mechanical Engineering or related field",
+        "experience": "5+ years of experience in mechanical engineering"
+    },
+    {
+        "icon": "https://example.com/job-icons/amazon-icon.png",
+        "job_title": "Software Development Engineer",
+        "company_name": "Amazon",
+        "location": "Seattle, USA",
+        "salary_range": "$1500 - $2000",
+        "work_facilities": [
+            "On-site",
+            "Full-time"
+        ],
+        "phone": "+1 206-266-1000",
+        "email": "jobs@amazon.com",
+        "address": "410 Terry Ave N, Seattle, WA 98109",
+        "job_desc": "We are looking for a talented Software Development Engineer to join our team in developing cutting-edge e-commerce and web services solutions. The ideal candidate will have a strong background in software development and experience working with large-scale distributed systems.",
+        "job_res": "Design, develop, and maintain software for Amazon's e-commerce and web services platforms, ensuring high performance, scalability, and availability",
+        "education_rq": "Bachelor's or higher degree in Computer Science or related field",
+        "experience": "2+ years of experience in software development"
+    },
+    {
+        "icon": "https://example.com/job-icons/facebook-icon.png",
+        "job_title": "Data Scientist",
+        "company_name": "Facebook",
+        "location": "Menlo Park, USA",
+        "salary_range": "$2000 - $2500",
+        "work_facilities": [
+            "Remote",
+            "Full-time"
+        ],
+        "phone": "+1 650-308-7300",
+        "email": "jobs@facebook.com",
+        "address": "1 Hacker Way, Menlo Park, CA 94025",
+        "job_desc": "We are seeking a highly motivated Data Scientist to join our team. The ideal candidate will have experience in statistical modeling, machine learning, and data analysis, as well as a strong passion for solving complex problems.",
+        "job_res": "Develop and apply statistical and machine learning models to solve business problems, communicate insights to cross-functional teams, and collaborate with engineers to integrate models into Facebook's products",
+        "education_rq": "Bachelor's or higher degree in Computer Science, Statistics, Mathematics, or related field",
+        "experience": "3+ years of experience in data science or related field"
+    },
+    {
+        "icon": "https://example.com/job-icons/microsoft-icon.png",
+        "job_title": "Cloud Solutions Architect",
+        "company_name": "Microsoft",
+        "location": "Redmond, USA",
+        "salary_range": "$1800 - $2200",
+        "work_facilities": [
+            "On-site",
+            "Full-time"
+        ],
+        "phone": "+1 425-882-8080",
+        "email": "jobs@microsoft.com",
+        "address": "One Microsoft Way, Redmond, WA 98052",
+        "job_desc": "We are seeking an experienced Cloud Solutions Architect to join our team. The ideal candidate will have a deep understanding of cloud technologies and architecture, as well as experience in designing and implementing scalable and secure cloud solutions.",
+        "job_res": "Design and implement cloud-based solutions that meet customer requirements and adhere to best practices, collaborate with cross-functional teams to deliver end-to-end solutions, and provide technical guidance and mentorship to junior team members",
+        "education_rq": "Bachelor's or higher degree in Computer Science, Information Systems, or related field",
+        "experience": "5+ years of experience in cloud architecture and design"
+    },
+    {
+        "icon": "https://example.com/job-icons/daraz-icon.png",
+        "job_title": "Product Manager",
+        "company_name": "Daraz",
+        "location": "Karachi, Pakistan",
+        "salary_range": "$1000 - $1500",
+        "work_facilities": [
+            "Remote",
+            "Full-time"
+        ],
+        "phone": "+92 21-111-132-729",
+        "email": "jobs@daraz.pk",
+        "address": "12th Floor, Executive Tower, Dolmen City, Karachi",
+        "job_desc": "We are looking for a Product Manager to lead product development initiatives and help us identify new opportunities for growth. The ideal candidate will have experience in product management, business analysis, and a deep understanding of e-commerce platforms.",
+        "job_res": "Conduct market research and analysis to identify customer needs and trends, define product vision and strategy, create product roadmaps, work with cross-functional teams to develop and launch new products, and monitor product performance and customer feedback",
+        "education_rq": "Bachelor's or higher degree in Business Administration, Marketing, or related field",
+        "experience": "3+ years of experience in product management or related field"
+    },
+    {
+        "icon": "https://example.com/job-icons/alibaba-icon.png",
+        "job_title": "Front-End Developer",
+        "company_name": "Alibaba",
+        "location": "Hangzhou, China",
+        "salary_range": "$1,500 - $2,500",
+        "work_facilities": [
+            "On-site",
+            "Full-time"
+        ],
+        "phone": "+86 571-8502-2088",
+        "email": "jobs@alibaba-inc.com",
+        "address": "969 West Wen Yi Road, Yu Hang District, Hangzhou, China",
+        "job_desc": "We are seeking a talented Front-End Developer to join our team. The ideal candidate will have experience in front-end development, a deep understanding of web development technologies, and a passion for building elegant and responsive user interfaces.",
+        "job_res": "Develop and maintain front-end codebases, create responsive and user-friendly interfaces, work with cross-functional teams to implement new features and functionality, and participate in code reviews and technical discussions",
+        "education_rq": "Bachelor's or higher degree in Computer Science, Software Engineering, or related field",
+        "experience": "3+ years of experience in front-end development, proficiency in HTML, CSS, JavaScript, and related frameworks"
+    }
+]
