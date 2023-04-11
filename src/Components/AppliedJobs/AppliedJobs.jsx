@@ -4,8 +4,6 @@ import { getApplyData } from '../../utilities/localStorage';
 import SingleAppliedJob from './SingleAppliedJob';
 import bgImage1 from "../../assets/All-Images/Vector-1.png";
 import bgImage2 from "../../assets/All-Images/Vector.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 
 const AppliedJobs = () => {
     const appliedData = useLoaderData();
@@ -28,19 +26,17 @@ const AppliedJobs = () => {
                     <img className='absolute bottom-0 left-0' src={bgImage2} alt="" />
                 </div>
             </div>
-            <div className='container mx-auto grid grid-cols-1 gap-5 py-20'>
-                <div className='flex justify-end'>
-                    <div className="dropdown dropdown-end">
-                        <label tabIndex={0} className="bg-gray-200 px-7 py-2 text-lg rounded-md flex items-center gap-x-2 cursor-pointer">Filter By <FontAwesomeIcon icon={faAngleDown} /> </label>
-                        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-gray-100 rounded-box w-52">
-                            <li><a>Remote</a></li>
-                            <li><a>On-site</a></li>
-                        </ul>
-                    </div>
+            <div className='container mx-auto py-20 space-y-5'>
+                <div className='text-end space-x-2'>
+                    <button className='btn btn-color'>All</button>
+                    <button className='btn btn-color'>Remote</button>
+                    <button className='btn btn-color'>On Site</button>
                 </div>
-                {
-                    jobsData.map(job => <SingleAppliedJob key={job.id} {...job} />)
-                }
+                <div className='grid grid-cols-1 gap-5 '>
+                    {
+                        jobsData.map(job => <SingleAppliedJob key={job.id} {...job} />)
+                    }
+                </div>
             </div>
         </div>
     );

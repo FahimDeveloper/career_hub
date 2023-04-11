@@ -5,3 +5,11 @@
 .btn-color {
     @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-slate-50
 }
+
+.active {
+    color: #7E90FE;
+}
+
+.btn-focused {
+    @apply btn-outline bg-gradient-to-r from-[#7E90FE] to-[#9873FF]
+}
