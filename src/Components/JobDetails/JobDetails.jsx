@@ -48,8 +48,8 @@ const JobDetails = () => {
                     <img className='absolute bottom-0 left-0' src={bgImage2} alt="" />
                 </div>
             </div>
-            <div className='container mx-auto grid grid-cols-3 py-20 gap-5 items-center'>
-                <div className='col-span-2 space-y-5'>
+            <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-14 md:py-20 gap-10 items-center'>
+                <div className='col-span-1 xl:col-span-2 space-y-5'>
                     <p>
                         <span className='text-lg font-medium'>Job Description : </span> {job_desc}
                     </p>
