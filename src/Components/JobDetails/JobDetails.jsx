@@ -26,6 +26,7 @@ const JobDetails = () => {
                 position: toast.POSITION.TOP_RIGHT
             })
         } else {
+            setJobsId([...jobsId, id])
             toast.success("Successfully apply", {
                 position: toast.POSITION.TOP_RIGHT
             })

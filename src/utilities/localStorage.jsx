@@ -1,6 +1,6 @@
 
 const addToDb = (id) => {
-    let shoppingCart = getShoppingCart()
+    let shoppingCart = getApplyData()
     const quantity = shoppingCart[id]
     if (!quantity) {
         shoppingCart[id] = 1
