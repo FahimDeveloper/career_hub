@@ -27,7 +27,7 @@ const JobDetails = () => {
     const handleApply = (id) => {
         const findId = jobsId.find(jobId => jobId == id)
         if (findId) {
-            toast.info("You are alrady applied this job", {
+            toast.error("You are alrady applied this job", {
                 position: toast.POSITION.TOP_RIGHT
             })
         } else {
