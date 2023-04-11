@@ -63,7 +63,7 @@ const JobDetails = () => {
                 <div className='col-span-1 space-y-4'>
                     <div className=' bg-indigo-50 rounded-xl p-10 space-y-4'>
                         <h3 className='text-xl font-medium'>Job Details</h3>
-                        <hr className='' />
+                        <hr className='border border-gray-300' />
                         <p className='text-lg opacity-90'>
                             <span className='text-lg font-medium'>Salary : </span> {salary_range}
                         </p>
@@ -71,7 +71,7 @@ const JobDetails = () => {
                             <span className='text-lg font-medium'>Job Title : </span> {job_title}
                         </p>
                         <h3 className='text-xl font-medium'>Contact Information</h3>
-                        <hr />
+                        <hr className='border border-gray-300' />
                         <p className='text-lg opacity-90'>
                             <span className='text-lg font-medium'>Phone : </span> {phone}
                         </p>
