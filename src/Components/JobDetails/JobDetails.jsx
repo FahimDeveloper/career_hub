@@ -2,16 +2,39 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import bgImage1 from "../../assets/All-Images/Vector-1.png";
 import bgImage2 from "../../assets/All-Images/Vector.png";
+import { addToDb, getApplyData } from '../../utilities/localStorage';
+import { ToastContainer, toast } from 'react-toastify';
 
 const JobDetails = () => {
     const { id } = useParams();
     const jobsData = useLoaderData();
-    console.log(jobsData)
+    const [jobsId, setJobsId] = useState([])
+    useEffect(() => {
+        const storedData = getApplyData();
+        const saveData = [];
+        for (const jobId in storedData) {
+            saveData.push(jobId)
+        }
+        setJobsId(saveData)
+    }, [])
     const findData = jobsData.find(job => job.id == id)
     const { job_desc, job_res, job_title, email, phone, address, experience, education_rq, salary_range } = findData;
-
+    const handleApply = (id) => {
+        const findId = jobsId.find(jobId => jobId == id)
+        if (findId) {
+            toast.info("You are alrady applied this job", {
+                position: toast.POSITION.TOP_RIGHT
+            })
+        } else {
+            toast.success("Successfully apply", {
+                position: toast.POSITION.TOP_RIGHT
+            })
+            addToDb(id)
+        }
+    }
     return (
         <div>
+            <ToastContainer />
             <div className='flex justify-center items-center h-96 bg-slate-100 relative'>
                 <div>
                     <h3 className='text-3xl font-semibold'>Job Details</h3>
@@ -58,7 +81,7 @@ const JobDetails = () => {
                             <span className='text-lg font-medium'>Address : </span> {address}
                         </p>
                     </div>
-                    <button className='btn btn-outline w-full'>Apply Now</button>
+                    <button onClick={() => handleApply(id)} className='btn btn-outline w-full'>Apply Now</button>
                 </div>
             </div>
         </div>
