@@ -12,10 +12,12 @@ import Statistics from './Components/Statistics/Statistics';
 import AppliedJobs from './Components/AppliedJobs/AppliedJobs';
 import Blog from './Components/Blog/Blog';
 import JobDetails from './Components/JobDetails/JobDetails';
+import Error from './Components/Error/Error';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",

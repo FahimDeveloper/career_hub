@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
                     <a href='/' className='text-3xl font-semibold'>Jobs Fair</a>
                 </div>
-                <div className='flex gap-x-10 text-lg font-medium items-center'>
+                <div className='hidden md:flex gap-x-10 text-lg font-medium items-center'>
                     <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/statistics">Statistics</NavLink>
                     <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/applied-jobs">Applied Jobs</NavLink>

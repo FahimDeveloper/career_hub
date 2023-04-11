@@ -13,3 +13,9 @@
 .btn-focused {
     @apply btn-outline bg-gradient-to-r from-[#7E90FE] to-[#9873FF]
 }
+
+@media all and (max-width:640px) {
+    .container {
+        width: 90%;
+    }
+}
