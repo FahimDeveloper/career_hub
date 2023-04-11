@@ -26,7 +26,7 @@ const Home = () => {
                             <p>
                                 Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
                             </p>
-                            <button className='btn btn-outline'>Get Started</button>
+                            <button className='btn btn-color'>Get Started</button>
                         </div>
                         <div>
                             <img className='w-full h-full' src={person} alt="Image" />
@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
                     {
                         slice < jobsData.length && <div className='text-center'>
-                            <button onClick={() => setSlice(jobsData.length)} className='btn btn-outline'>Show All jobs</button>
+                            <button onClick={() => setSlice(jobsData.length)} className='btn btn-color'>Show All jobs</button>
                         </div>
                     }
                 </div>

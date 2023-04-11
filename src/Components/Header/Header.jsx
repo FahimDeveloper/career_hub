@@ -15,7 +15,7 @@ const Header = () => {
                     <NavLink to="/blog">Blog</NavLink>
                 </div>
                 <div>
-                    <button className='btn btn-outline'>Start Applying</button>
+                    <button className='btn btn-color'>Start Applying</button>
                 </div>
             </div>
         </div>

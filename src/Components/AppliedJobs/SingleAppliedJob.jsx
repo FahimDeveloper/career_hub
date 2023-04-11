@@ -25,7 +25,7 @@ const SingleAppliedJob = (props) => {
                 </div>
             </div>
             <Link to={`/details/${id}`}>
-                <button className='btn btn-outline mt-5'>View Details</button>
+                <button className='btn btn-color mt-5'>View Details</button>
             </Link>
         </div>
     );

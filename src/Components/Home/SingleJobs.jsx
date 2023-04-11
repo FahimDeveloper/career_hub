@@ -20,7 +20,7 @@ const SingleJobs = (props) => {
                     <p> <FontAwesomeIcon icon={faCoins} /> Salary : {salary_range}</p>
                 </div>
                 <Link to={`/details/${id}`}>
-                    <button className='btn btn-outline mt-5'>View Details</button>
+                    <button className='btn btn-color mt-5'>View Details</button>
                 </Link>
             </div>
         </div>

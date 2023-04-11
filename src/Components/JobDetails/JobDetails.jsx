@@ -4,6 +4,11 @@ import bgImage1 from "../../assets/All-Images/Vector-1.png";
 import bgImage2 from "../../assets/All-Images/Vector.png";
 import { addToDb, getApplyData } from '../../utilities/localStorage';
 import { ToastContainer, toast } from 'react-toastify';
+import icon from "../../assets/Icons/Frame.png";
+import icon1 from "../../assets/Icons/Frame-1.png";
+import icon2 from "../../assets/Icons/Frame-2.png";
+import icon3 from "../../assets/Icons/Frame-3.png";
+import icon4 from "../../assets/Icons/Frame-4.png";
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -64,25 +69,40 @@ const JobDetails = () => {
                     <div className=' bg-indigo-50 rounded-xl p-10 space-y-4'>
                         <h3 className='text-xl font-medium'>Job Details</h3>
                         <hr className='border border-gray-300' />
-                        <p className='text-lg opacity-90'>
-                            <span className='text-lg font-medium'>Salary : </span> {salary_range}
-                        </p>
-                        <p className='text-lg opacity-90'>
-                            <span className='text-lg font-medium'>Job Title : </span> {job_title}
-                        </p>
+                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                            <img src={icon} alt="" />
+                            <p>
+                                <span className='text-lg font-medium'>Salary</span> : {salary_range}
+                            </p>
+                        </div>
+                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                            <img src={icon1} alt="" />
+                            <p>
+                                <span className='text-lg font-medium'>Job Title</span> : {job_title}
+                            </p>
+                        </div>
                         <h3 className='text-xl font-medium'>Contact Information</h3>
                         <hr className='border border-gray-300' />
-                        <p className='text-lg opacity-90'>
-                            <span className='text-lg font-medium'>Phone : </span> {phone}
-                        </p>
-                        <p className='text-lg opacity-90'>
-                            <span className='text-lg font-medium'>Email : </span> {email}
-                        </p>
-                        <p className='text-lg opacity-90'>
-                            <span className='text-lg font-medium'>Address : </span> {address}
-                        </p>
+                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                            <img src={icon2} alt="" />
+                            <p>
+                                <span className='text-lg font-medium'>Phone</span> : {phone}
+                            </p>
+                        </div>
+                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                            <img src={icon3} alt="" />
+                            <p>
+                                <span className='text-lg font-medium'>Email</span> : {email}
+                            </p>
+                        </div>
+                        <div className='text-lg opacity-90 flex items-start gap-x-5'>
+                            <img src={icon4} alt="" />
+                            <p>
+                                <span className='text-lg font-medium'>Address</span> : {address}
+                            </p>
+                        </div>
                     </div>
-                    <button onClick={() => handleApply(id)} className='btn btn-outline w-full'>Apply Now</button>
+                    <button onClick={() => handleApply(id)} className='btn btn-color w-full'>Apply Now</button>
                 </div>
             </div>
         </div>
