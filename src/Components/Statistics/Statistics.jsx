@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import bgImage1 from "../../assets/All-Images/Vector-1.png";
 import bgImage2 from "../../assets/All-Images/Vector.png";
 import { useLoaderData } from 'react-router-dom';
@@ -6,6 +6,16 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 const Statistics = () => {
     const assignmentData = useLoaderData()
+    const [aspect, setAspect] = useState(3)
+    const screenWidth = document.documentElement.clientWidth || window.innerWidth;
+    useEffect(() => {
+        if (screenWidth <= 1025) {
+            setAspect(2);
+        }
+        if (screenWidth <= 640) {
+            setAspect(1)
+        }
+    }, [screenWidth])
     return (
         <div>
             <div className='flex justify-center items-center h-96 bg-slate-100 relative'>
@@ -16,8 +26,8 @@ const Statistics = () => {
                 </div>
             </div>
             <div className='container mx-auto py-16 space-y-10'>
-                <h3 className='text-4xl font-semibold text-center'>Assignment Analysis</h3>
-                <ResponsiveContainer width="100%" aspect={3}>
+                <h3 className='text-3xl sm:text-4xl font-semibold text-center'>Assignment Analysis</h3>
+                <ResponsiveContainer width="100%" aspect={aspect}>
                     <AreaChart
                         data={assignmentData}
                         margin={{
