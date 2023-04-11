@@ -14,7 +14,6 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setCategories(data))
     }, []);
-    console.log(jobsData)
     return (
         <div>
             <div className=' bg-slate-100'>
