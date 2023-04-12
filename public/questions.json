@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question": "When should we use Context API in React?",
+        "answer": "Context API is a way to share data between components in React without having to pass the data through multiple levels of the component tree. It's useful when you have data that is needed by many components in your application, such as a user's authentication state or theme preference. Context API can simplify your code and make it more maintainable by reducing the number of props that need to be passed around. However, it's important to note that Context API should not be overused and should only be used when it makes sense for your specific use case."
+    },
+    {
+        "id": 2,
+        "question": "What is a custom hook in React?",
+        "answer": "A custom hook is a function in React that allows you to reuse stateful logic across multiple components. Custom hooks are created by extracting the logic from a component into a separate function and then returning the state and any other values that are needed. Custom hooks can make your code more modular and reusable by abstracting away complex logic and making it easier to reason about. It's important to follow the naming convention of starting your custom hooks with the word 'use' so that they can be identified as hooks by React and its linter."
+    },
+    {
+        "id": 3,
+        "question": "What is useRef and why do we use it in React?",
+        "answer": "useRef is a hook in React that allows you to create a mutable reference that persists across renders. useRef is useful for storing values that don't need to trigger a rerender when they change, such as a DOM element or a value that is used in a useEffect dependency array. useRef can also be used to store the previous value of a state variable or to access an instance variable on a class component. useRef can simplify your code and make it more performant by reducing the number of unnecessary rerenders."
+    },
+    {
+        "id": 4,
+        "question": "What is useMemo and why do we use it in React?",
+        "answer": "useMemo is a hook in React that allows you to memoize the result of a function so that it only recomputes when its dependencies change. useMemo is useful for optimizing expensive computations or for preventing unnecessary rerenders of components. For example, if you have a component that renders a list of items, you can use useMemo to memoize the filtered list of items so that it only recomputes when the search query or list of items changes. useMemo can improve the performance of your application by reducing the number of unnecessary computations and rerenders."
+    }
+]

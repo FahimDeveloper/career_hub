@@ -42,7 +42,7 @@ const AppliedJobs = () => {
         setAll(!all)
     }
     return (
-        <div>
+        <>
             <div className='flex justify-center items-center h-96 bg-slate-100 relative'>
                 <div>
                     <h3 className='text-3xl font-semibold'>Applied Jobs</h3>
@@ -69,7 +69,7 @@ const AppliedJobs = () => {
                         </div>
                 }
             </div>
-        </div>
+        </>
     );
 };
 

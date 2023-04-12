@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className={`absolute duration-500 ${open ? `top-full` : "-top-96"} z-50 bg-white py-5 w-full flex flex-col gap-y-5 text-lg font-medium items-center`}>
+            <div className={`absolute duration-300 ${open ? `top-full` : "-top-52"} z-50 bg-white py-5 w-full flex flex-col gap-y-5 text-lg font-medium items-center`}>
                 <NavLink onClick={() => setOpen(!open)} className={({ isActive }) => isActive ? "active" : ""} to="/">Home</NavLink>
                 <NavLink onClick={() => setOpen(!open)} className={({ isActive }) => isActive ? "active" : ""} to="/statistics">Statistics</NavLink>
                 <NavLink onClick={() => setOpen(!open)} className={({ isActive }) => isActive ? "active" : ""} to="/applied-jobs">Applied Jobs</NavLink>
