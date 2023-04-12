@@ -1,6 +1,6 @@
 # b7a9-career-hub-FahimDeveloper
 
-## Jobs Fair project
+# Jobs Fair project
 ## This projects have
 * Home page
 * Statistics page
@@ -9,16 +9,17 @@
 
 ## Home page
 * You can see wonderfull banner section.
-* Jobs category section, that have information how many jobs here in every category
-* Featured section that have all jobs for users, users can see every jobs details and if
-users choice any job he can apply this job.
+* Jobs category section, which has information on how many jobs here in every category
+* The featured section has all jobs for users, users can see the details of every job, and if users choose any position they can apply for it.
 
 ## Statistics page
-* This page haves some information of my assignment results. The result information showing in a charts, The charts is showing results of my assignment with the details.
+* This page has some information about my assignment results. The result information showing in charts, The charts show the results of my assignment with the details.
 
 ## Applied jobs
-* This page haves no data if users are not applying any jobs, If users apply any jobs that job information show in this page, users can see apply jobs details and filter based on jobs type.
+* This page has no data if users are not applying for any jobs, If users apply for any jobs the job information shown on this page, users can see apply jobs details and filter based on jobs type.
 
 ## Blog page
-* This page haves some blogs. The blogs have important information. This blogs helps developers to learn some extra information of react
+* This page has some blogs. The blogs have important information. This blog helps developers to learn some extra information about react
+
+## Project Live Link : [https://jobsfair.netlify.app](https://jobsfair.netlify.app)
 
