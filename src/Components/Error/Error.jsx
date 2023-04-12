@@ -1,7 +1,7 @@
 import React from 'react';
 import Lottie from "lottie-react";
 import ErrorAnimatation from "../../assets/Error.json"
-import { useRouteError } from 'react-router-dom';
+import { Link, useRouteError } from 'react-router-dom';
 
 const Error = () => {
     const { error, status } = useRouteError();
@@ -13,6 +13,9 @@ const Error = () => {
                 <p className='text-lg font-medium'>{error.message}</p>
             </div>
             <Lottie animationData={ErrorAnimatation} loop={true} className='lg:w-1/2 xl:w-1/3' />
+            <Link to="/">
+                <button className='btn btn-color'>Go Back</button>
+            </Link>
         </div>
     );
 };

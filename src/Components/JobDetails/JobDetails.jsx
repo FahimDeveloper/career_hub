@@ -4,11 +4,11 @@ import bgImage1 from "../../assets/All-Images/Vector-1.png";
 import bgImage2 from "../../assets/All-Images/Vector.png";
 import { addToDb, getApplyData } from '../../utilities/localStorage';
 import { ToastContainer, toast } from 'react-toastify';
-import icon from "../../assets/Icons/Frame.png";
-import icon1 from "../../assets/Icons/Frame-1.png";
-import icon2 from "../../assets/Icons/Frame-2.png";
-import icon3 from "../../assets/Icons/Frame-3.png";
-import icon4 from "../../assets/Icons/Frame-4.png";
+import icon1 from "../../assets/Icons/Frame.png";
+import icon2 from "../../assets/Icons/Frame-1.png";
+import icon3 from "../../assets/Icons/Frame-2.png";
+import icon4 from "../../assets/Icons/Frame-3.png";
+import icon5 from "../../assets/Icons/Frame-4.png";
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -23,7 +23,7 @@ const JobDetails = () => {
         setJobsId(saveData)
     }, [])
     const findData = jobsData.find(job => job.id == id)
-    const { job_desc, job_res, job_title, email, phone, address, experience, education_rq, salary_range } = findData;
+    const { job_desc, job_res, job_title, company_name, email, phone, address, experience, education_rq, salary_range } = findData;
     const handleApply = (id) => {
         const findId = jobsId.find(jobId => jobId == id)
         if (findId) {
@@ -48,61 +48,64 @@ const JobDetails = () => {
                     <img className='absolute bottom-0 left-0' src={bgImage2} alt="" />
                 </div>
             </div>
-            <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-14 md:py-20 gap-10 items-center'>
-                <div className='col-span-1 xl:col-span-2 space-y-5'>
-                    <p>
-                        <span className='text-lg font-medium'>Job Description : </span> {job_desc}
-                    </p>
-                    <p>
-                        <span className='text-lg font-medium'>Job Responsibility : </span> {job_res}
-                    </p>
-                    <p className='text-lg font-medium'>Educational Requirements : </p>
-                    <p>
-                        {education_rq}
-                    </p>
-                    <p className='text-lg font-medium'>Experience : </p>
-                    <p>
-                        {experience}
-                    </p>
-                </div>
-                <div className='col-span-1 space-y-4'>
-                    <div className=' bg-indigo-50 rounded-xl p-10 space-y-4'>
-                        <h3 className='text-xl font-medium'>Job Details</h3>
-                        <hr className='border border-gray-300' />
-                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
-                            <img src={icon} alt="" />
-                            <p>
-                                <span className='text-lg font-medium'>Salary</span> : {salary_range}
-                            </p>
-                        </div>
-                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
-                            <img src={icon1} alt="" />
-                            <p>
-                                <span className='text-lg font-medium'>Job Title</span> : {job_title}
-                            </p>
-                        </div>
-                        <h3 className='text-xl font-medium'>Contact Information</h3>
-                        <hr className='border border-gray-300' />
-                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
-                            <img src={icon2} alt="" />
-                            <p>
-                                <span className='text-lg font-medium'>Phone</span> : {phone}
-                            </p>
-                        </div>
-                        <div className='text-lg opacity-90 flex items-center gap-x-5'>
-                            <img src={icon3} alt="" />
-                            <p>
-                                <span className='text-lg font-medium'>Email</span> : {email}
-                            </p>
-                        </div>
-                        <div className='text-lg opacity-90 flex items-start gap-x-5'>
-                            <img src={icon4} alt="" />
-                            <p>
-                                <span className='text-lg font-medium'>Address</span> : {address}
-                            </p>
-                        </div>
+            <div className='container mx-auto py-14 md:py-20 space-y-5'>
+                <h2 className='text-4xl text-center font-semibold'>Jobs From {company_name}</h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 items-center'>
+                    <div className='col-span-1 xl:col-span-2 space-y-5'>
+                        <p>
+                            <span className='text-lg font-medium'>Job Description : </span> {job_desc}
+                        </p>
+                        <p>
+                            <span className='text-lg font-medium'>Job Responsibility : </span> {job_res}
+                        </p>
+                        <p className='text-lg font-medium'>Educational Requirements : </p>
+                        <p>
+                            {education_rq}
+                        </p>
+                        <p className='text-lg font-medium'>Experience : </p>
+                        <p>
+                            {experience}
+                        </p>
                     </div>
-                    <button onClick={() => handleApply(id)} className='btn btn-color w-full'>Apply Now</button>
+                    <div className='col-span-1 space-y-4'>
+                        <div className=' bg-indigo-50 rounded-xl p-10 space-y-4'>
+                            <h3 className='text-xl font-medium'>Job Details</h3>
+                            <hr className='border border-gray-300' />
+                            <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                                <img src={icon1} alt="" />
+                                <p>
+                                    <span className='text-lg font-medium'>Salary</span> : {salary_range}
+                                </p>
+                            </div>
+                            <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                                <img src={icon2} alt="" />
+                                <p>
+                                    <span className='text-lg font-medium'>Job Title</span> : {job_title}
+                                </p>
+                            </div>
+                            <h3 className='text-xl font-medium'>Contact Information</h3>
+                            <hr className='border border-gray-300' />
+                            <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                                <img src={icon3} alt="" />
+                                <p>
+                                    <span className='text-lg font-medium'>Phone</span> : {phone}
+                                </p>
+                            </div>
+                            <div className='text-lg opacity-90 flex items-center gap-x-5'>
+                                <img src={icon4} alt="" />
+                                <p>
+                                    <span className='text-lg font-medium'>Email</span> : {email}
+                                </p>
+                            </div>
+                            <div className='text-lg opacity-90 flex items-start gap-x-5'>
+                                <img src={icon5} alt="" />
+                                <p>
+                                    <span className='text-lg font-medium'>Address</span> : {address}
+                                </p>
+                            </div>
+                        </div>
+                        <button onClick={() => handleApply(id)} className='btn btn-color w-full'>Apply Now</button>
+                    </div>
                 </div>
             </div>
         </div>

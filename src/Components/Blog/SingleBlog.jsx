@@ -6,7 +6,7 @@ const SingleBlog = (props) => {
     return (
         <div className='space-y-5 bg-slate-100 p-10 rounded-xl'>
             <h3 className='text-2xl lg:text-3xl font-medium'>{question}</h3>
-            <p className='text-lg'>
+            <p className='text-lg text-justify'>
                 <span className='font-semibold'>Answer</span>
                 : {
                     seeMore ? (answer) : (answer.slice(0, 200))
