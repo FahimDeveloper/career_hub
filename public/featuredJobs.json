@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "icon": "../src/assets/All-Images/google.png",
+        "icon": "https://i.ibb.co/VvH51vt/google.png",
         "job_title": "Software Engineer",
         "company_name": "Google",
         "location": "Mountain View, USA",
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "icon": "../src/assets/All-Images/netflix.png",
+        "icon": "https://i.ibb.co/XW5F9yr/netflix.png",
         "job_title": "Product Manager",
         "company_name": "Netflix",
         "location": "Los Gatos, USA",
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "icon": "../src/assets/All-Images/tesla.png",
+        "icon": "https://i.ibb.co/0XTsztg/tesla.png",
         "job_title": "Senior Mechanical Engineer",
         "company_name": "Tesla",
         "location": "Palo Alto, USA",
@@ -58,7 +58,7 @@
     },
     {
         "id": 4,
-        "icon": "../src/assets/All-Images/amazon.png",
+        "icon": "https://i.ibb.co/R2STm8t/amazon.png",
         "job_title": "Software Development Engineer",
         "company_name": "Amazon",
         "location": "Seattle, USA",
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "icon": "../src/assets/All-Images/facebook.png",
+        "icon": "https://i.ibb.co/ct5KjVD/facebook.png",
         "job_title": "Data Scientist",
         "company_name": "Facebook",
         "location": "Menlo Park, USA",
@@ -96,7 +96,7 @@
     },
     {
         "id": 6,
-        "icon": "../src/assets/All-Images/microsoft-logo-4.png",
+        "icon": "https://i.ibb.co/4mJrVL3/microsoft-logo-4.png",
         "job_title": "Cloud Solutions Architect",
         "company_name": "Microsoft",
         "location": "Redmond, USA",
@@ -115,7 +115,7 @@
     },
     {
         "id": 7,
-        "icon": "../src/assets/All-Images/airbnb.png",
+        "icon": "https://i.ibb.co/drkmJqN/airbnb.png",
         "job_title": "Product Manager",
         "company_name": "Airbnb",
         "location": "San Francisco, USA",
@@ -134,7 +134,7 @@
     },
     {
         "id": 8,
-        "icon": "../src/assets/All-Images/Alibaba-Logo.png",
+        "icon": "https://i.ibb.co/xFjGD4r/Alibaba-Logo.png",
         "job_title": "Front-End Developer",
         "company_name": "Alibaba",
         "location": "Hangzhou, China",
