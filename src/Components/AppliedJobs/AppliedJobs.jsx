@@ -51,16 +51,23 @@ const AppliedJobs = () => {
                 </div>
             </div>
             <div className='container mx-auto py-20 space-y-5'>
+                <h2 className='text-center text-4xl font-medium'>Applied Jobs List</h2>
                 <div className='text-end space-x-2'>
                     <button onClick={handleAllData} className='btn btn-color'>All</button>
                     <button onClick={handleRemoteData} className='btn btn-color'>Remote</button>
                     <button onClick={handleOnsiteData} className='btn btn-color'>On Site</button>
                 </div>
-                <div className='grid grid-cols-1 gap-5 '>
-                    {
-                        filterData.map(job => <SingleAppliedJob key={job.id} {...job} />)
-                    }
-                </div>
+                {
+                    filterData.length > 0 ?
+                        <div className='grid grid-cols-1 gap-5'>
+                            {
+                                filterData.map(job => <SingleAppliedJob key={job.id} {...job} />)
+                            }
+                        </div>
+                        : <div className='text-center'>
+                            <h3 className='text-3xl font-semibold'>No available jobs</h3>
+                        </div>
+                }
             </div>
         </div>
     );
